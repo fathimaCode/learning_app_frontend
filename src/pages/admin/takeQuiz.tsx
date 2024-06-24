@@ -2,8 +2,8 @@ import { useState } from "react"
 import CustomerNavBar from "../../components/CustomerNavBar"
 import data from "../../course_content/data.json"
 import Button from 'react-bootstrap/Button';
-import quiz1 from "../../assets/img/quiz1.png"
-import quiz2 from "../../assets/img/quiz2.png"
+import quiz1 from "../../../public/assets/img/quiz1.png"
+import quiz2 from "../../../public/assets/img/quiz2.png"
 const TakeQuiz: React.FC = () => {
     const courseId = localStorage.getItem("courseId")
     const courseData = data.courses.find(course => course.courseId === courseId)
