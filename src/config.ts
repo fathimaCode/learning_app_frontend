@@ -1,2 +1,2 @@
-const BASE_URL= "https://merry-alpaca-e3f1e5.netlify.app/"
+const BASE_URL= "https://lms-backend-6nx9.onrender.com/"
 export default BASE_URL
