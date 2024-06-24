@@ -1,0 +1,230 @@
+{
+    "courses": [
+      {
+        "courseId": "001",
+        "image": "https://appmaster.io/api/_files/NeQv2JzeKPokF3GrUCHLh3/download/",
+        "title": "Java Programming Basics",
+        "description": "Learn the fundamentals of Java programming.",
+        "price": 100,
+        "chapters": [
+          { "title": "Chapter 1: Introduction", "description": "Overview of Java programming." },
+          { "title": "Chapter 2: Variables and Data Types", "description": "Understanding variables and data types in Java." },
+          { "title": "Chapter 3: Control Flow", "description": "Using loops and conditional statements." },
+          { "title": "Chapter 4: Object-Oriented Programming", "description": "Basics of OOP in Java." },
+          { "title": "Chapter 5: Exception Handling", "description": "Handling errors in Java." }
+        ],
+        "quizzes": [
+          { "question": "What is JVM?", "options": { "a": "Java Virtual Machine", "b": "JavaScript Virtual Machine", "c": "Java Variable Machine", "d": "None of the above" }, "correctAnswer": "a" },
+          { "question": "Which is a valid keyword in Java?", "options": { "a": "interface", "b": "inherit", "c": "unsigned", "d": "extends" }, "correctAnswer": "a" },
+          { "question": "What is the size of int in Java?", "options": { "a": "8 bit", "b": "16 bit", "c": "32 bit", "d": "64 bit" }, "correctAnswer": "c" },
+          { "question": "Which method is the entry point in a Java program?", "options": { "a": "start()", "b": "init()", "c": "main()", "d": "run()" }, "correctAnswer": "c" },
+          { "question": "Which package contains the Random class?", "options": { "a": "java.util", "b": "java.lang", "c": "java.io", "d": "java.net" }, "correctAnswer": "a" }
+        ]
+      },
+      {
+        "courseId": "002",
+        "image": "https://repository-images.githubusercontent.com/431991980/6f97d8ac-6eb3-453a-96d4-372434e07ddb",
+        "title": "PHP for Beginners",
+        "description": "Get started with PHP programming.",
+        "price": 500,
+        "chapters": [
+          { "title": "Chapter 1: Introduction to PHP", "description": "Overview of PHP and its applications." },
+          { "title": "Chapter 2: Syntax and Variables", "description": "Understanding PHP syntax and variables." },
+          { "title": "Chapter 3: Control Structures", "description": "Using loops and conditionals in PHP." },
+          { "title": "Chapter 4: Functions", "description": "Defining and using functions in PHP." },
+          { "title": "Chapter 5: Working with Forms", "description": "Handling form data in PHP." }
+        ],
+        "quizzes": [
+          { "question": "What does PHP stand for?", "options": { "a": "Personal Home Page", "b": "Private Home Page", "c": "PHP: Hypertext Preprocessor", "d": "None of the above" }, "correctAnswer": "c" },
+          { "question": "Which symbol is used to declare a variable in PHP?", "options": { "a": "$", "b": "#", "c": "&", "d": "@" }, "correctAnswer": "a" },
+          { "question": "Which function is used to print output in PHP?", "options": { "a": "echo", "b": "print", "c": "write", "d": "output" }, "correctAnswer": "a" },
+          { "question": "Which superglobal array is used to get form data?", "options": { "a": "$_GET", "b": "$_POST", "c": "$_FORM", "d": "$_DATA" }, "correctAnswer": "b" },
+          { "question": "Which version of PHP introduced namespaces?", "options": { "a": "PHP 4", "b": "PHP 5.3", "c": "PHP 5", "d": "PHP 7" }, "correctAnswer": "b" }
+        ]
+      },
+      {
+        "courseId": "003",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png",
+        "title": "Python Programming",
+        "description": "Comprehensive guide to Python programming.",
+        "price": 600,
+        "chapters": [
+          { "title": "Chapter 1: Introduction", "description": "Getting started with Python." },
+          { "title": "Chapter 2: Variables and Data Types", "description": "Understanding Python variables and data types." },
+          { "title": "Chapter 3: Control Flow", "description": "Using loops and conditionals." },
+          { "title": "Chapter 4: Functions", "description": "Defining and calling functions in Python." },
+          { "title": "Chapter 5: Modules and Packages", "description": "Using modules and packages in Python." }
+        ],
+        "quizzes": [
+          { "question": "Which data type is immutable?", "options": { "a": "List", "b": "Dictionary", "c": "Set", "d": "Tuple" }, "correctAnswer": "d" },
+          { "question": "What is the output of print(2 ** 3)?", "options": { "a": "6", "b": "8", "c": "9", "d": "None of the above" }, "correctAnswer": "b" },
+          { "question": "How do you create a function in Python?", "options": { "a": "function myFunction()", "b": "def myFunction():", "c": "create myFunction()", "d": "define myFunction()" }, "correctAnswer": "b" },
+          { "question": "Which module in Python is used for regular expressions?", "options": { "a": "regex", "b": "re", "c": "expression", "d": "pyregex" }, "correctAnswer": "b" },
+          { "question": "What is the correct file extension for Python files?", "options": { "a": ".pyth", "b": ".pt", "c": ".py", "d": ".pyt" }, "correctAnswer": "c" }
+        ]
+      },
+      {
+        "courseId": "004",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA6DTmB377aQ16mxu4wNCF8MdHQFe4UIHs7g&s",
+        "title": "JavaScript Essentials",
+        "description": "Learn the essentials of JavaScript programming.",
+        "price":700,
+        "chapters": [
+          {
+            "title": "Chapter 1: Introduction to JavaScript",
+            "description": "This chapter introduces you to JavaScript, a versatile programming language used to create dynamic web content. You'll learn about its history and key features. The chapter will guide you through setting up your development environment. You'll write your first JavaScript program and understand its basic syntax. By the end, you'll be ready to dive deeper into the language."
+          },
+          {
+            "title": "Chapter 2: Variables and Data Types",
+            "description": "Understanding variables and data types is crucial in JavaScript programming. This chapter explains how to declare variables using var, let, and const. You'll learn about different data types like strings, numbers, booleans, and objects. Practical examples will illustrate how to manipulate these data types. By the end, you'll be comfortable using variables and understanding their scope."
+          },
+          {
+            "title": "Chapter 3: Functions",
+            "description": "Functions are fundamental building blocks in JavaScript. This chapter will teach you how to define and invoke functions. You'll explore different types of functions, including anonymous and arrow functions. The chapter covers parameters, return values, and scope. Practical examples will show how to use functions for modular and reusable code."
+          },
+          {
+            "title": "Chapter 4: Events",
+            "description": "Events are key to creating interactive web pages. This chapter covers how to handle user actions like clicks, form submissions, and keyboard input. You'll learn about event listeners and event handlers. The chapter explains the event propagation model: capturing, bubbling, and delegation. By the end, you'll be able to create dynamic responses to user interactions."
+          },
+          {
+            "title": "Chapter 5: DOM Manipulation",
+            "description": "The Document Object Model (DOM) is essential for web development. This chapter explains how to use JavaScript to access and manipulate HTML elements. You'll learn methods for selecting elements and modifying their content and attributes. The chapter covers adding and removing elements dynamically. Practical examples will demonstrate how to create interactive and responsive web pages."
+          }
+        ],
+        "quizzes": [
+          { "question": "What does DOM stand for?", "options": { "a": "Document Object Model", "b": "Display Object Management", "c": "Digital Object Model", "d": "Document Oriented Model" }, "correctAnswer": "a" },
+          { "question": "Which company developed JavaScript?", "options": { "a": "Netscape", "b": "Microsoft", "c": "Sun Microsystems", "d": "Oracle" }, "correctAnswer": "a" },
+          { "question": "How do you write 'Hello World' in an alert box?", "options": { "a": "msgBox('Hello World')", "b": "alert('Hello World')", "c": "msg('Hello World')", "d": "alertBox('Hello World')" }, "correctAnswer": "b" },
+          { "question": "Which symbol is used for comments in JavaScript?", "options": { "a": "/* */", "b": "//", "c": "#", "d": "<!-- -->" }, "correctAnswer": "b" },
+          { "question": "How do you create a function in JavaScript?", "options": { "a": "function = myFunction()", "b": "function myFunction()", "c": "create myFunction()", "d": "define myFunction()" }, "correctAnswer": "b" }
+        ]
+      },
+      {
+        "courseId": "005",
+        "image": "https://miro.medium.com/v2/resize:fit:960/1*OlyP02fRFe8pEkJgb6vGTQ.png",
+        "title": "HTML and CSS Basics",
+        "description": "Learn the basics of HTML and CSS.",
+        "price": 500,
+        "chapters": [
+          { "title": "Chapter 1: Introduction to HTML", "description": "Getting started with HTML." },
+          { "title": "Chapter 2: HTML Elements", "description": "Understanding different HTML elements." },
+          { "title": "Chapter 3: Introduction to CSS", "description": "Getting started with CSS." },
+          { "title": "Chapter 4: Styling with CSS", "description": "Applying styles to HTML elements." },
+          { "title": "Chapter 5: Responsive Design", "description": "Creating responsive web pages." }
+        ],
+        "quizzes": [
+          { "question": "What does HTML stand for?", "options": { "a": "HyperText Markup Language", "b": "HyperText Machine Language", "c": "HyperTool Markup Language", "d": "Hyper Transfer Markup Language" }, "correctAnswer": "a" },
+          { "question": "Which tag is used for the largest heading?", "options": { "a": "<heading>", "b": "<h6>", "c": "<h1>", "d": "<head>" }, "correctAnswer": "c" },
+          { "question": "What does CSS stand for?", "options": { "a": "Creative Style Sheets", "b": "Cascading Style Sheets", "c": "Computer Style Sheets", "d": "Colorful Style Sheets" }, "correctAnswer": "b" },
+          { "question": "Which CSS property controls the text size?", "options": { "a": "font-style", "b": "text-size", "c": "font-size", "d": "text-style" }, "correctAnswer": "c" },
+          { "question": "How do you add a background color in CSS?", "options": { "a": "background-color:", "b": "color-background:", "c": "background:", "d": "bg-color:" }, "correctAnswer": "a" }
+        ]
+      },
+      {
+        "courseId": "006",
+        "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190902124355/ruby-programming-language.png",
+        "title": "Ruby Programming",
+        "description": "Learn the basics of Ruby programming.",
+        "price": 800,
+        "chapters": [
+          { "title": "Chapter 1: Introduction to Ruby", "description": "Getting started with Ruby." },
+          { "title": "Chapter 2: Variables and Data Types", "description": "Understanding variables and data types in Ruby." },
+          { "title": "Chapter 3: Control Structures", "description": "Using loops and conditionals." },
+          { "title": "Chapter 4: Methods", "description": "Defining and calling methods in Ruby." },
+          { "title": "Chapter 5: Classes and Objects", "description": "Working with classes and objects." }
+        ],
+        "quizzes": [
+          { "question": "What is the output of 'puts 2 + 3'?", "options": { "a": "2 + 3", "b": "5", "c": "23", "d": "None of the above" }, "correctAnswer": "b" },
+          { "question": "How do you create a function in Ruby?", "options": { "a": "function myFunction", "b": "myFunction = function()", "c": "def myFunction", "d": "function: myFunction" }, "correctAnswer": "c" },
+          { "question": "Which method is used to convert a string to an integer in Ruby?", "options": { "a": "toInt()", "b": "Integer()", "c": "to_i", "d": "to_int" }, "correctAnswer": "c" },
+          { "question": "How do you declare an array in Ruby?", "options": { "a": "arr = []", "b": "arr = array()", "c": "arr = {}", "d": "arr = Array[]" }, "correctAnswer": "a" },
+          { "question": "What is the correct way to create a new object in Ruby?", "options": { "a": "obj = ClassName.new", "b": "obj = new ClassName", "c": "obj = ClassName()", "d": "obj = create ClassName" }, "correctAnswer": "a" }
+        ]
+      },
+      {
+        "courseId": "007",
+        "image": "https://miro.medium.com/v2/resize:fit:750/1*OgeU8HPo8TFF1cZQ-4XjJw.jpeg",
+        "title": "Swift for Beginners",
+        "description": "Learn the basics of Swift programming.",
+        "price": 200,
+        "chapters": [
+          { "title": "Chapter 1: Introduction to Swift", "description": "Getting started with Swift." },
+          { "title": "Chapter 2: Variables and Constants", "description": "Understanding variables and constants in Swift." },
+          { "title": "Chapter 3: Control Flow", "description": "Using loops and conditionals." },
+          { "title": "Chapter 4: Functions", "description": "Defining and calling functions in Swift." },
+          { "title": "Chapter 5: Classes and Structures", "description": "Working with classes and structures." }
+        ],
+        "quizzes": [
+          { "question": "Which keyword is used to define a constant in Swift?", "options": { "a": "const", "b": "constant", "c": "let", "d": "var" }, "correctAnswer": "c" },
+          { "question": "Which function is used to print output in Swift?", "options": { "a": "echo", "b": "print", "c": "println", "d": "print()" }, "correctAnswer": "b" },
+          { "question": "What is the correct way to declare a function in Swift?", "options": { "a": "func myFunction() {}", "b": "function myFunction() {}", "c": "def myFunction() {}", "d": "myFunction() {}" }, "correctAnswer": "a" },
+          { "question": "How do you create an array in Swift?", "options": { "a": "arr = []", "b": "arr: [String] = []", "c": "arr = Array()", "d": "arr = [String]" }, "correctAnswer": "b" },
+          { "question": "Which operator is used for string concatenation in Swift?", "options": { "a": "+", "b": "&", "c": ".", "d": "-" }, "correctAnswer": "a" }
+        ]
+      },
+      {
+        "courseId": "008",
+        "image": "https://www.codeguru.com/wp-content/uploads/2021/08/C-Sharp-Tutorials.png",
+        "title": "C# Programming Basics",
+        "description": "Learn the basics of C# programming.",
+        "price":200,
+        "chapters": [
+          { "title": "Chapter 1: Introduction to C#", "description": "Getting started with C#." },
+          { "title": "Chapter 2: Variables and Data Types", "description": "Understanding variables and data types in C#." },
+          { "title": "Chapter 3: Control Flow", "description": "Using loops and conditionals." },
+          { "title": "Chapter 4: Methods", "description": "Defining and calling methods in C#." },
+          { "title": "Chapter 5: Classes and Objects", "description": "Working with classes and objects." }
+        ],
+        "quizzes": [
+          { "question": "Which of the following is a value type?", "options": { "a": "String", "b": "Array", "c": "Class", "d": "Int" }, "correctAnswer": "d" },
+          { "question": "What is the size of a byte in C#?", "options": { "a": "8 bits", "b": "16 bits", "c": "32 bits", "d": "64 bits" }, "correctAnswer": "a" },
+          { "question": "Which keyword is used to define a method in C#?", "options": { "a": "def", "b": "function", "c": "method", "d": "void" }, "correctAnswer": "d" },
+          { "question": "How do you create an array in C#?", "options": { "a": "arr = []", "b": "int[] arr = new int[5]", "c": "arr = Array()", "d": "arr = [5]" }, "correctAnswer": "b" },
+          { "question": "Which of the following is a reference type?", "options": { "a": "int", "b": "double", "c": "char", "d": "string" }, "correctAnswer": "d" }
+        ]
+      },
+      {
+        "courseId": "009",
+        "image": "https://www.freecodecamp.org/news/content/images/2022/10/golang.png",
+        "title": "Go Programming",
+        "description": "Learn the basics of Go programming.",
+        "price": 62.99,
+        "chapters": [
+          { "title": "Chapter 1: Introduction to Go", "description": "Getting started with Go." },
+          { "title": "Chapter 2: Variables and Data Types", "description": "Understanding variables and data types in Go." },
+          { "title": "Chapter 3: Control Flow", "description": "Using loops and conditionals." },
+          { "title": "Chapter 4: Functions", "description": "Defining and calling functions in Go." },
+          { "title": "Chapter 5: Concurrency", "description": "Understanding concurrency in Go." }
+        ],
+        "quizzes": [
+          { "question": "What is the file extension for Go files?", "options": { "a": ".go", "b": ".golang", "c": ".g", "d": ".gol" }, "correctAnswer": "a" },
+          { "question": "Which keyword is used to define a variable in Go?", "options": { "a": "var", "b": "let", "c": "def", "d": "set" }, "correctAnswer": "a" },
+          { "question": "How do you define a function in Go?", "options": { "a": "function myFunction() {}", "b": "func myFunction() {}", "c": "def myFunction() {}", "d": "fn myFunction() {}" }, "correctAnswer": "b" },
+          { "question": "Which package is used for formatted I/O in Go?", "options": { "a": "fmt", "b": "io", "c": "strconv", "d": "bufio" }, "correctAnswer": "a" },
+          { "question": "What is the default value of an uninitialized variable in Go?", "options": { "a": "null", "b": "undefined", "c": "0", "d": "nil" }, "correctAnswer": "c" }
+        ]
+      },
+      {
+        "courseId": "010",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgubX0Q20xlaaWZXrdmYj9n8KuCsBx_8EM-noekoeqnNVfiVUGUbp_dXDjiGGA5pogKac&usqp=CAU",
+        "title": "Rust Programming",
+        "description": "Learn the basics of Rust programming.",
+        "price": 100,
+        "chapters": [
+          { "title": "Chapter 1: Introduction to Rust", "description": "Getting started with Rust." },
+          { "title": "Chapter 2: Variables and Data Types", "description": "Understanding variables and data types in Rust." },
+          { "title": "Chapter 3: Control Flow", "description": "Using loops and conditionals." },
+          { "title": "Chapter 4: Functions", "description": "Defining and calling functions in Rust." },
+          { "title": "Chapter 5: Memory Safety", "description": "Understanding memory safety in Rust." }
+        ],
+        "quizzes": [
+          { "question": "Which keyword is used to define a variable in Rust?", "options": { "a": "var", "b": "let", "c": "def", "d": "set" }, "correctAnswer": "b" },
+          { "question": "What is the file extension for Rust files?", "options": { "a": ".rs", "b": ".rust", "c": ".r", "d": ".rt" }, "correctAnswer": "a" },
+          { "question": "How do you define a function in Rust?", "options": { "a": "function myFunction() {}", "b": "fn myFunction() {}", "c": "def myFunction() {}", "d": "func myFunction() {}" }, "correctAnswer": "b" },
+          { "question": "Which of the following is a primitive type in Rust?", "options": { "a": "int", "b": "float", "c": "bool", "d": "char" }, "correctAnswer": "d" },
+          { "question": "What is the default value of an uninitialized variable in Rust?", "options": { "a": "null", "b": "undefined", "c": "0", "d": "Variables in Rust must be initialized before use" }, "correctAnswer": "d" }
+        ]
+      }
+    ]
+  }
+  
